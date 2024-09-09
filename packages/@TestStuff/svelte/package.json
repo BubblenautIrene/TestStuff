@@ -1,0 +1,51 @@
+{
+  "name": "@uppy/svelte",
+  "description": "Uppy plugin that helps integrate Uppy into your Svelte project.",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "version": "3.1.1",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn run build",
+    "validate": "svelte-check"
+  },
+  "homepage": "https://uppy.io",
+  "bugs": {
+    "url": "https://github.com/transloadit/uppy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transloadit/uppy.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@tsconfig/svelte": "^5.0.0",
+    "rollup": "^2.60.2",
+    "rollup-plugin-svelte": "^7.0.0",
+    "svelte": "^4.0.0",
+    "svelte-check": "^3.0.0",
+    "svelte-preprocess": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@uppy/core": "workspace:^",
+    "@uppy/dashboard": "workspace:^",
+    "@uppy/drag-drop": "workspace:^",
+    "@uppy/progress-bar": "workspace:^",
+    "@uppy/status-bar": "workspace:^",
+    "svelte": "^3.0.0 || ^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "file uploader",
+    "uppy",
+    "uppy-plugin",
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
+}
