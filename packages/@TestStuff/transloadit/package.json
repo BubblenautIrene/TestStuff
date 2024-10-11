@@ -1,0 +1,44 @@
+{
+  "name": "@uppy/transloadit",
+  "description": "The Transloadit plugin can be used to upload files to Transloadit for all kinds of processing, such as transcoding video, resizing images, zipping/unzipping, and more",
+  "version": "3.4.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "file uploader",
+    "transloadit",
+    "file encoding",
+    "encoding",
+    "file processing",
+    "video encoding",
+    "crop",
+    "resize",
+    "watermark",
+    "uppy",
+    "uppy-plugin"
+  ],
+  "homepage": "https://uppy.io",
+  "bugs": {
+    "url": "https://github.com/transloadit/uppy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transloadit/uppy.git"
+  },
+  "dependencies": {
+    "@uppy/companion-client": "workspace:^",
+    "@uppy/provider-views": "workspace:^",
+    "@uppy/tus": "workspace:^",
+    "@uppy/utils": "workspace:^",
+    "component-emitter": "^1.2.1"
+  },
+  "peerDependencies": {
+    "@uppy/core": "workspace:^"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.5",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
