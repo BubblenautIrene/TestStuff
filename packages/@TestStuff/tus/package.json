@@ -1,0 +1,36 @@
+{
+  "name": "@TestStuff/tus",
+  "description": "Resumable uploads for TestStuff using Tus.io",
+  "version": "3.4.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "file uploader",
+    "TestStuff",
+    "TestStuff-plugin",
+    "upload",
+    "resumable",
+    "tus"
+  ],
+  "homepage": "https://TestStuff.io",
+  "bugs": {
+    "url": "https://github.com/transloadit/TestStuff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transloadit/TestStuff.git"
+  },
+  "dependencies": {
+    "@TestStuff/companion-client": "workspace:^",
+    "@TestStuff/utils": "workspace:^",
+    "tus-js-client": "^3.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.5"
+  },
+  "peerDependencies": {
+    "@TestStuff/core": "workspace:^"
+  }
+}
