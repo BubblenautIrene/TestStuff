@@ -1,0 +1,34 @@
+{
+  "name": "@TestStuff/url",
+  "description": "The Url plugin lets users import files from the Internet. Paste any URL and it’ll be added!",
+  "version": "3.4.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "style": "dist/style.min.css",
+  "types": "types/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "file uploader",
+    "url",
+    "import from url",
+    "TestStuff",
+    "TestStuff-plugin"
+  ],
+  "homepage": "https://TestStuff.io",
+  "bugs": {
+    "url": "https://github.com/transloadit/TestStuff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transloadit/TestStuff.git"
+  },
+  "dependencies": {
+    "@TestStuff/companion-client": "workspace:^",
+    "@TestStuff/utils": "workspace:^",
+    "nanoid": "^4.0.0",
+    "preact": "^10.5.13"
+  },
+  "peerDependencies": {
+    "@TestStuff/core": "workspace:^"
+  }
+}
