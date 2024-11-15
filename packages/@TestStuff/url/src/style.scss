@@ -1,0 +1,34 @@
+@import '@TestStuff/core/src/_utils.scss';
+@import '@TestStuff/core/src/_variables.scss';
+
+.TestStuff-Url {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  [data-TestStuff-theme='dark'] & {
+    background-color: $gray-900;
+  }
+}
+
+.TestStuff-Url-input {
+  width: 90%;
+  max-width: 650px;
+  margin-bottom: 15px;
+
+  .TestStuff-size--md & {
+    margin-bottom: 20px;
+  }
+}
+
+.TestStuff-Url-importButton {
+  padding: 13px 25px;
+
+  .TestStuff-size--md & {
+    padding: 13px 30px;
+  }
+}
